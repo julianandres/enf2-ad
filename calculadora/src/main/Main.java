@@ -15,7 +15,7 @@ public class Main {
 	   int resultado=0;
 	   Suma sum=new Suma(number1,number2);
        resultado=sum.getResultado();
-      
+      System.out.println("prueba");
 	}
 
 }
