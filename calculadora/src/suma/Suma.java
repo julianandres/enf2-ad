@@ -1,7 +1,7 @@
 package suma;
 
 public class Suma {
-    private int sumando1;
+    private int sumando1=0;
     private int sumando2;
     private int resultado;
 	public int getSumando1() {
