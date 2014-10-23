@@ -1,4 +1,5 @@
 package main;
+import Resta.Resta;
 import suma.Suma;
 public class Main {
     private  int number1;
@@ -13,8 +14,11 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 	   int resultado=0;
+	   int result=0;
 	   Suma sum=new Suma(number1,number2);
        resultado=sum.getResultado();
+       Resta rest= new Resta(number1,number2);
+       result=rest.getResult();
       System.out.println("prueba");
       //hola andreita linda
 	}
